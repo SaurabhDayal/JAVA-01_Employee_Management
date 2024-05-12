@@ -25,7 +25,7 @@ public class EmployeeController {
     @GetMapping
     public List<EmployeeEntity> findAllEmployee() {
         return employeeService.findAllEmployees();
-    }
+       }
 
     @GetMapping("/{id}")
     public EmployeeEntity findEmployeeById(@PathVariable("id") Long id) {
