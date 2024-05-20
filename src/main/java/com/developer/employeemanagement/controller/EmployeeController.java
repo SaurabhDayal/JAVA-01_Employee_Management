@@ -38,7 +38,7 @@ public class EmployeeController {
     }
 
     @PutMapping
-    public EmployeeEntity updateEmployee(@RequestBody EmployeeEntity employeeEntity) {
+    public EmployeeEntity updateEmployee(@RequestBody EmployeeEntity employeeEntity)  {
         return employeeService.saveEmployee(employeeEntity);
     }
 
